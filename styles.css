@@ -1,0 +1,48 @@
+html{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.title{
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.box{
+    margin-left: 55px;
+    margin-top: 25px;
+}
+.toInput{
+    border-radius: 5px;
+    border: 1px solid rgba(180, 179, 184, 0.582);
+    background-color: rgba(235, 229, 229, 0.582);
+    margin-left: 25px;
+    padding: 7px 25px;
+
+}
+.toInput:hover{
+    background-color: rgba(175, 174, 174, 0.582);
+}
+.button{
+    border-radius: 5px;
+    border: 1px solid rgba(235, 230, 230, 0.582);
+    background-color: rgba(211, 202, 202, 0.582);
+    box-shadow: 1px 1px rgba(211, 202, 202, 0.582) ;
+    padding: 7px 25px;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 500ms linear;
+
+}
+.button:hover{
+    background-color: rgba(131, 130, 130, 0.582) ;
+}
+
+.button:active{
+    background-color: rgba(83, 83, 83, 0.452);
+}
+.only5{
+    font-size: 20px;
+    color: red;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
